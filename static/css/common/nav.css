@@ -1,0 +1,32 @@
+.wrapper{
+    background:#F9F9F9;
+
+}
+.navbar{
+    height:50px;
+}
+
+.left-menu{
+    position:fixed;
+    top:52px;
+    width:150px;
+    height:100%;
+    background:white;
+    z-index:1000;
+    border:1px solid rgba(0,0,0,.125)
+}
+
+.left-menu .list-group-item{
+    border-radius:0;
+}
+
+.content{
+    margin-top:52px;
+    margin-left:158px;
+}
+
+.content-main{
+    position:relative;
+    height:calc(100vh - 204px);
+    width:calc(100wh - 156px);
+}
